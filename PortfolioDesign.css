@@ -1,0 +1,161 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.backgroundDesign {
+    display:block;
+    background-image:url('ReignBG.JPG');
+    max-width: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo{
+    height:25px;
+    padding:5;
+    margin:0;
+    float:left;
+    padding-left: 7em;
+    padding-top:11px;
+}
+
+header {
+    display:block;
+    position:fixed;
+    top:0;
+    width:100%;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.6);
+    
+}
+
+nav{
+    float:right;
+    padding-right: 30px;
+    padding-top:10px;
+}
+
+nav a:visited, nav a:link{
+    color: white;
+    text-decoration: none;
+    font-family: 'arial';
+}
+
+nav > ul {
+    display: flex;
+    padding:0;
+}
+
+nav > ul > li {
+    display:block;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    margin: 5px;    
+}
+
+main {
+    padding-top:15em;
+    text-align: center;
+    height:70%;
+    
+    
+}
+
+h1 {
+    color: rgb(201, 26, 26);
+    font-family:'Oswald Regular';
+    font-size: 60px;
+}
+
+h2 {
+    color:whitesmoke;
+    font-family: 'Oswald Regular';
+    font-size: 30px;
+}
+
+.redBtn {
+    font-family: "Arial";
+    background-color: transparent;
+    color:rgb(255, 69, 69);
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 69, 69);
+    margin-top:30px;
+    cursor:pointer;
+    
+}
+
+button a:visited, button a:link{
+    color:rgb(255, 69, 69);
+    text-decoration: none;
+    font-family: 'arial';
+}
+
+footer{
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    width:100%;
+    height:10em;
+    padding-top:30px;
+    bottom:0;
+    color:white;
+}
+
+footer ul{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer ul li{
+    list-style: none;
+    display: flex;
+
+}
+
+footer a{
+    color:white;
+    padding: 10px 20px;
+}
+
+.references{
+    display: flex;
+    text-align: left;
+    color:white;
+    padding-left:100px;
+    padding-top:10px;
+}
+
+.references div{
+    flex:1;
+}
+
+.referenceName{
+    padding-top: 20px;
+    font-family: 'Arial';
+    font-style:initial;
+    font-size: 15px;
+}
+
+.referenceContent{
+    color:whitesmoke;
+    font-family: 'Arial';
+    font-style:initial;
+    font-size: 12px;
+
+}
+
+@media screen and (min-width:768px){
+
+}
