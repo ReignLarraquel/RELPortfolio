@@ -186,6 +186,38 @@ footer a{
     width:100%;
 }
 
+/*.schoolRow{
+    padding:40px 0;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.school{
+    font-family: "Arial";
+    padding: 0 60px;
+}
+
+.schoolGrid{
+    display:grid;
+    grid-template-columns: 20% 20% 20%;
+}
+.schoolYear{
+    font-size: 23px;
+}
+
+.schoolName{
+    font-size: 20px;
+    font-style:initial;
+}
+
+.schoolDescription{
+    font-size: 13px;
+}
+
+.schoolLogo{
+    max-height: 150px;
+}
+
 @media screen and (max-width:700px){
     nav a:not(.menu){
         display: none;
